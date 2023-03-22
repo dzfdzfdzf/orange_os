@@ -67,7 +67,7 @@
 
         `bximage`
 
-        依次输入fd 1.14 a.img
+        依次输入fd 1.44 a.img
     3.  将引导扇区写进软盘
 
         `dd if=boot.bin of=a.img bs=512 count=1 conv=notrunc`
